@@ -1,0 +1,33 @@
+/* navigation */
+.navv{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+.container-fluid{
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.para{
+    font-size: 1.5rem;
+    color: grey;
+}
+h1{
+    line-height: 0.7!important;
+}
+.btnn{
+    background-color:#0d6efd;
+    border: 2px;
+    border-radius: 5px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+}
+    
+.btnn:hover {
+    background-color: #0b5ed7; 
+}
