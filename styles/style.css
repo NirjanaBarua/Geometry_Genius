@@ -31,3 +31,53 @@ h1{
 .btnn:hover {
     background-color: #0b5ed7; 
 }
+ /* cards */
+ .cards{
+    display: flex;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 180px;
+}
+.card{
+    width: 350px;
+    height: 490px!important;
+}
+#area-card{
+    height: 400px !important;
+    margin-left: 25px;
+}
+#area-box{
+    text-align: left;
+}
+.card-img-top{
+    height: 194px;
+    width: 243px!important;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.card-body{
+    text-align: center;
+}
+.btn{
+    width: 270px;
+    height: 45px;
+    margin-top: 40px;
+}
+input{
+    width:80px;
+    background-color: rgb(228, 224, 224);
+    border: 2px;
+    
+}
+.input-container{
+    display: flex; 
+    align-items: center; 
+    margin-left: 50px;
+    
+}
+.input-container p{
+    margin: 5px;
+}
+
+

@@ -16,15 +16,111 @@
       <nav class="navbar" style="background-color: #e3f2fd;">
         <div class="container-fluid">
           <h1>Interactive <br><span class="para">Geometry Genius</span></h1>
-          <button class="btnn" type="submit">Blog</button>
+          <button id="blog-btn" class="btnn">Blog</button>
         </div>
       </nav>
     </section>
   </header>
-  
+  <main>
+    <section class="cards">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/triangle.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Triangle</h5>
+              <p>Area(A) = 0.5 x b x h</p>
+              <div class="input-container">
+                <input type="text" placeholder="b" id="triangle-base">
+                <p>cm</p>
+                <input type="text" placeholder="h" id="triangle-height">
+                <p>cm</p>
+              </div>
+              <button id="triangle-btn" class="btn btn-primary">Calculate</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/rectangle.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rectangle</h5>
+              <p>Area(A) = w x l</p>
+              <div class="input-container">
+                <input type="text" placeholder="w" id="rectangle-width">
+                <p>cm</p>
+                <input type="text" placeholder="l" id="rectangle-length">
+                <p>cm</p>
+              </div>
+
+              <button id="rectangle-btn" class="btn btn-primary">Calculate</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/parallelogram.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Parallelogram</h5>
+              <p>Area(A) = b x h</p>
+              <p>b=10cm, h=12cm</p>
+              <button id="parallelogram-btn" class="btn btn-primary">Calculate</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/rhombus.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rhombus</h5>
+              <p>Area(A) = 0.5 x d1 x d2</p>
+              <p>d<sub>1</sub> = 16cm, d<sub>2</sub> = 8cm</p>
+              <button id="rhombus-btn" class="btn btn-primary">Calculate</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/pentagon.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pentagon</h5>
+              <p>Area(A) = 0.5 x p x b</p>
+              <p>p = 6cm, b = 10cm</p>
+              <button id="pentagon-btn" class="btn btn-primary">Calculate</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/ellipse.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ellipse</h5>
+              <p>Area(A) = πab</p>
+              <p>a = 10cm, b = 4cm</p>
+              <button id="ellipse-btn" class="btn btn-primary">Calculate</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col">
+        <div id="area-card" class="card">
+          <div class="card-body ">
+            <h5> <u>Area Calculation</u> </h5>
+           <p id="area-box"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+  <script src="js/utlities.js"></script>
+  <script src="js/triangle.js"></script>
+  <script src="js/rectangle.js"></script>
+  <script src="js/geometry.js"></script>
 </body>
 
 </html>
